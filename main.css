@@ -145,7 +145,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 360px) and (max-width: 420px) {
     header .container {
         display: flex;
         padding: 25px;
@@ -162,4 +162,41 @@ footer p {
     .produtos {
         display: block;
     }
+
+    footer p {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .sobre-loja img {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+    
+    .sobre-loja img {
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+    }
+
+    .produtos {
+        display: block;
+    }
+
+    .produto img {
+        margin-left: 59px;
+    }
+
+    footer p {
+        padding: 0;
+    }
+
+    header {
+        height: 80px;
+        padding: 8px;
+    }
+
 }
